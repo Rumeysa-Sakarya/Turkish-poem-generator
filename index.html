@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -18,7 +19,7 @@
         <h1>AI Turkish Poem Generator 📝</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the poem"
@@ -29,7 +30,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">The poem will go here<br />The poem will go here</div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         <p>
