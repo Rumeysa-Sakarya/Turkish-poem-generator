@@ -56,6 +56,9 @@ form {
   border-left: 3px solid rgba(216, 172, 151, 0.8);
   box-shadow: 0px, 20px, 66px rgba(216, 172, 151, 0.4);
 }
+.poem strong {
+  color: rgb(216, 172, 151);
+}
 
 footer {
   text-align: center;
